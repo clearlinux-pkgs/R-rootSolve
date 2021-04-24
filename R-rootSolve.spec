@@ -4,7 +4,7 @@
 #
 Name     : R-rootSolve
 Version  : 1.8.2.1
-Release  : 32
+Release  : 33
 URL      : https://cran.r-project.org/src/contrib/rootSolve_1.8.2.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rootSolve_1.8.2.1.tar.gz
 Summary  : Nonlinear Root Finding, Equilibrium and Steady-State Analysis of
