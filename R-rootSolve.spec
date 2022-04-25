@@ -4,7 +4,7 @@
 #
 Name     : R-rootSolve
 Version  : 1.8.2.3
-Release  : 46
+Release  : 47
 URL      : https://cran.r-project.org/src/contrib/rootSolve_1.8.2.3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rootSolve_1.8.2.3.tar.gz
 Summary  : Nonlinear Root Finding, Equilibrium and Steady-State Analysis of
@@ -33,10 +33,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641103359
+export SOURCE_DATE_EPOCH=1650908979
 
 %install
-export SOURCE_DATE_EPOCH=1641103359
+export SOURCE_DATE_EPOCH=1650908979
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -95,7 +95,6 @@ R CMD check --no-manual --no-examples --no-codoc rootSolve || :
 /usr/lib64/R/library/rootSolve/demo/Jacobandroots.R
 /usr/lib64/R/library/rootSolve/demo/Steadystate.R
 /usr/lib64/R/library/rootSolve/doc/index.html
-/usr/lib64/R/library/rootSolve/doc/rootSolve.R
 /usr/lib64/R/library/rootSolve/doc/rootSolve.Rnw
 /usr/lib64/R/library/rootSolve/doc/rootSolve.pdf
 /usr/lib64/R/library/rootSolve/doc/vignettes.bib
